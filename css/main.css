@@ -1,10 +1,17 @@
 .header {
   background-color: #333;
   height: 120px;
+  position: relative;
+  text-align: center;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
 }
 .header .loginBox {
-  position: relative;
+  position: absolute;
   right: 20px;
+  bottom: 20px;
 }
 .header .loginBox .login {
   float: right;

@@ -1,11 +1,18 @@
 .header {
-
     background-color: #333;
     height: 120px;
+    position: relative;
+    text-align: center;
     
+    h1 {
+        display: inline-block;
+        font-size: 50px;
+    }
+
     .loginBox {
-        position: relative;
+        position: absolute;
         right: 20px;
+        bottom: 20px;
 
         .login {
             float: right;
