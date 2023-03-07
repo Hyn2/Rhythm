@@ -1,21 +1,33 @@
-header {
-  height: 100px;
-  font-size: 30px;
-  text-align: center;
+.header {
+  background-color: #333;
+  height: 120px;
 }
-header h1 {
-  display: inline-block;
+.header .loginBox {
+  position: relative;
+  right: 20px;
 }
-header .loginBox {
-  margin-top: 10px;
-}
-header .loginBox #loginBtn {
-  width: 50px;
-  height: 60px;
+.header .loginBox .login {
   float: right;
 }
-header .loginBox #login {
+.header .loginBox .login input {
+  padding: 8px;
+  border-radius: 7px;
+  background: #ccc;
+  display: block;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+  height: 10px;
+}
+.header .loginBox button {
   float: right;
+  height: 80px;
+  width: 70px;
+  margin-left: 20px;
+  background: grey;
+  border-radius: 7px;
+  color: white;
+  font-size: 22px;
 }
 
 #container {

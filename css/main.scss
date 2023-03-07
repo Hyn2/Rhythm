@@ -1,0 +1,66 @@
+.header {
+
+    background-color: #333;
+    height: 120px;
+    
+    .loginBox {
+        position: relative;
+        right: 20px;
+
+        .login {
+            float: right;
+
+            input {
+            padding: 8px;
+            border-radius:7px;
+            background: #ccc;
+            display: block;
+            width: 150px;  
+            color:white;
+            font-size:18px;
+            height: 10px;
+            }
+        }
+
+        button {
+            float:right;
+            height: 80px;
+            width: 70px;
+            margin-left: 20px;
+            background: grey;
+            border-radius:7px;
+            color:white;
+            font-size:22px;
+        }
+    }
+
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 200px 500px;
+    background-color: red;
+}
+.loginTitle {
+    text-align: center;
+}
+.loginMain {
+    text-align: center;
+}
+.introduce {
+    text-align: center;
+}
+#ranking {
+    background-image: url("Odung.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#musicList {
+    grid-column-start: 2;
+    list-style: none;
+    text-align: right;
+    padding-right: 100px;
+}
+footer {
+    float: right;
+}
