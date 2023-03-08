@@ -3,6 +3,8 @@
   height: 120px;
   position: relative;
   text-align: center;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
 }
 .header h1 {
   display: inline-block;
@@ -17,14 +19,14 @@
   float: right;
 }
 .header .loginBox .login input {
-  padding: 8px;
-  border-radius: 7px;
-  background: #ccc;
-  display: block;
   width: 150px;
-  color: white;
-  font-size: 18px;
   height: 10px;
+  padding: 8px;
+  display: block;
+  background: #ccc;
+  color: white;
+  border-radius: 7px;
+  font-size: 18px;
 }
 .header .loginBox button {
   float: right;
@@ -37,38 +39,22 @@
   font-size: 22px;
 }
 
-#container {
+.container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 200px 500px;
-  background-color: red;
+  grid-template-rows: 1000px;
+  grid-gap: 10px;
+}
+.container #ranking {
+  background-color: salmon;
+}
+.container #musicList {
+  background-color: #6bf2da;
 }
 
-.loginTitle {
-  text-align: center;
-}
-
-.loginMain {
-  text-align: center;
-}
-
-.introduce {
-  text-align: center;
-}
-
-#ranking {
-  background-image: url("Odung.png");
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-
-#musicList {
-  grid-column-start: 2;
-  list-style: none;
-  text-align: right;
-  padding-right: 100px;
-}
-
-footer {
-  float: right;
+.footer {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  height: 200px;
+  background-color: #f9f9fb;
 }/*# sourceMappingURL=main.css.map */
